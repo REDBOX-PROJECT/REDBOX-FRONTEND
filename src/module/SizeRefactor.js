@@ -10,7 +10,7 @@ export const getResizeEventListener = (standardWidth, standardHeight) =>{
         let height = width * (standardHeight / standardWidth);
         console.log(height);
         if(height < 950){
-            app.style.zoom =0.7;
+            app.style.zoom =0.9;
         }else{
             app.style.zoom = height / standardHeight;
         }
