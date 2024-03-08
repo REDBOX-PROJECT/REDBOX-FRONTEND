@@ -6,19 +6,15 @@ export const getResizeEventListener = (standardWidth, standardHeight) =>{
 
         app.style.width = `${standardWidth}px`;
         app.style.height = `${standardHeight}px`;
-
         let width = root.clientWidth;
-        let height = width * (standardWidth / standardHeight);
-
-        app.style.zoom = height / standardHeight;
-
-        if(height > root.clientHeight){
-            height = root.clientHeight;
-            width = height * (standardWidth / standardHeight);
-
-            app.style.zoom = width / standardWidth;
-            console.log("qwe")
+        let height = width * (standardHeight / standardWidth);
+        console.log(height);
+        if(height < 950){
+            app.style.zoom =0.7;
+        }else{
+            app.style.zoom = height / standardHeight;
         }
         console.log(app.style.zoom);
+
     }
 }

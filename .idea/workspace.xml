@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="15820c56-0ef0-4b00-8cd1-1c698d32f4e4" name="Changes" comment="">
+    <list default="true" id="15820c56-0ef0-4b00-8cd1-1c698d32f4e4" name="Changes" comment="Changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/module/SizeRefactor.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/module/SizeRefactor.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,6 +44,7 @@
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/yuseonjong/Desktop/frontend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -59,7 +64,9 @@
       <workItem from="1707711252840" duration="5000" />
       <workItem from="1707711548308" duration="4660000" />
       <workItem from="1709603019636" duration="2875000" />
-      <workItem from="1709621013681" duration="10807000" />
+      <workItem from="1709621013681" duration="11335000" />
+      <workItem from="1709869943657" duration="3522000" />
+      <workItem from="1709875035812" duration="2505000" />
     </task>
     <servers />
   </component>

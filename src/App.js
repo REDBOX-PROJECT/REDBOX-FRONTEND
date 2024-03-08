@@ -13,13 +13,15 @@ class App extends Component{
                         <Route path="/main"  element={<All/>}/>
                         <Route path="/login" element=""/>
                         <Route path="/register" element={<Register1/>}/>
+
                     </Routes>
                 </div>
             </BrowserRouter>
         );
     }
     componentDidMount() {
-        const FixRatio = getResizeEventListener(1960,1080);
+        const FixRatio = getResizeEventListener(1980,1060);
+        console.log()
         window.onresize= FixRatio;
         FixRatio();
     }
